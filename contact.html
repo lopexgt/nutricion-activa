@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nutrición Activa</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e64791138f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" class="logo">Nutrición Activa</a>
+            <div class="header-right">
+              <a class="active" href="index.html">Incio</a>
+              <a href="contact.html">Contactanos</a>
+              <a href="https://api.whatsapp.com/send?phone=50250188157"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+            </div>
+        </div>
+        <section class="textos-header">
+            <h1>Vive Saludable y Activo</h1>
+            <h2>Con una dieta balanceada</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C213.03,173.19 305.58,174.17 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div></div>
+
+    </header>
+    <!-- <div class="modal_wrap">
+        <div class="mensaje_modal">
+            <h3>Ingrese los datos correctamente</h3>
+            <p>Falta Nombre</p>
+            <p>Falta Correo</p>
+            <p>Falta Texto</p>
+            <span id="btnClose">Cerrar</span>
+        </div>
+    </div> -->
+
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="far fa-id-card"></span>
+                <h2>INFORMACIÓN<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fas fa-envelope"></span> marlyn89.go@gmail.com</p>
+                <p><span class="fab fa-whatsapp"></span> 502 5018-8157</p>
+                <p><span class="fas fa-map-marked-alt"></span> 3a calle 3-68 zona 1,<br>Santa Elena, Flores, Petén</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="POST" class="form_contact">
+            <h2>Haz tu cita hoy mismo</h2>
+            <div class="user_info">
+                <label for="names">Nombre *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+</body>
